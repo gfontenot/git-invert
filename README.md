@@ -1,3 +1,7 @@
 # git-invert
 
-a horrible idea
+Invert your git history
+
+Messages become changes, changes become messages.
+
+This is a horrible idea.
