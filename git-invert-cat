@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# When inverted, a file's contents become a commit message.
+# To `cat` that file's contents, show that Git commit's full commit message
+# (sanitized subject and body).
+
+git log --format="%f\n%B" -n 1 "$1"

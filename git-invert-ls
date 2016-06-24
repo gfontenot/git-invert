@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# To list the "files", show all of the Git commit hashes.
+
+git log --format=%H
